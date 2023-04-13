@@ -1,4 +1,6 @@
-melons_to_add = [
+"use strict";
+
+const melons_to_add = [
   "Ogen",
   "Horned Melon",
   "Watermelon",
@@ -51,7 +53,7 @@ melons_to_add = [
 ];
 
 function countMelons(melon_array) {
-  melon_counts = {};
+  const melon_counts = {};
 
   for (i = 0; i < melon_array.length; i++) {
     melon = melon_array[i];
